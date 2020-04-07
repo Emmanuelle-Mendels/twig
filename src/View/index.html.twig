@@ -1,8 +1,23 @@
 {%  extends "base.html.twig" %}
+{% block title %}
+Quete Twig
+{% endblock %}
+
+
+
 
 {%  block content %}
 
+    <div class="container-fluid">
+        <h1 class="col-md4 offset-4">Twig Quest</h1>
+    </div>
+
+
     <h4 class="col-md4 offset-3">These are some of our products</h4>
+
+
+
+
 <div class="container-fluid" style="max-width: 100rem;">
     <div class="row">
 {%  for product in products %}
